@@ -1,0 +1,8 @@
+- insert:
+    - id: session-rewind
+      name: '@mrmark019/dsh-session-rewind'
+      config:
+        restoreFiles: true
+        maxFiles: 500
+        timeoutMs: 30000
+        maxScanEvents: 20000

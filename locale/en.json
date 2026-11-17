@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Rewind this turn",
+    "description": "Adds a Rewind action to every completed reply: it forks the conversation before that turn and opens the new session (the prompt and its answer stay out of it, the original session is kept), and can restore workspace files from a private git snapshot taken when the turn started. Snapshots write only to a per-session private object store; the repository index, refs, and object store are untouched, and ignored files are neither restored nor deleted. Turns recorded before the plugin was installed can be rewound in conversation only, because no snapshot exists for them; a workspace outside git also falls back to conversation-only rewind.",
+    "detail": "docs/DETAIL.md"
+  }
+}
